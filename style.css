@@ -1,0 +1,308 @@
+* {
+	margin: 0;
+	padding: 0;
+	/*	font-family: 'Righteous', cursive, 'M PLUS Rounded 1c', sans-serif;*/
+}
+
+body {
+	width: 100%;
+	overflow-x: hidden;
+	position: relative;
+}
+
+
+.color {
+	background-color: #ff6bb5;
+	height: 400px;
+	z-index: 2;
+}
+
+
+.en1 {
+	padding: 80px 0px 0px 80px;
+	z-index: 100;
+}
+
+.en2 {
+	padding: 10px 0px 0px 50px;
+	z-index: 100;
+}
+
+nav {
+	position: fixed;
+	width: 100%;
+	z-index: 3;
+}
+
+nav li {
+	list-style-type: none;
+	float: right;
+	/*ナビを縦から横に*/
+	margin-top: 2px;
+}
+
+nav a {
+	font-size: 30px;
+	display: block;
+	text-decoration: none;
+	color: white;
+	margin: 40px 50px 0px 20px;
+	transition: 0.5s;
+	text-shadow: 1px 1px 0 #000,
+		/*アウトライン*/
+		-1px 1px 0 #000,
+		1px -1px 0 #000,
+		-1px -1px 0 #000;
+}
+
+nav a:hover {
+	padding-bottom: 5px;
+	border-bottom: 4px solid pink;
+}
+
+.name p {
+	font-size: 120px;
+	margin-left: 200px;
+	color: pink;
+	letter-spacing: 8px;
+	text-shadow: 1px 1px 0 #000,
+		-1px 1px 0 #000,
+		1px -1px 0 #000,
+		-1px -1px 0 #000;
+	position: absolute;
+	/*なんかこれで重なった*/
+	margin-top: 200px;
+	z-index: 2;
+
+}
+
+.momori img {
+	margin-top: 150px;
+	margin-left: 450px;
+	position: absolute;
+	/*なんかこれで重なった*/
+	z-index: 2;
+	box-shadow: 6px 6px 6px #999;
+}
+
+.mission_bar01:before {
+	content: '';
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 120%;
+	height: 10px;
+	margin: 900px -100px 0;
+	background: hotpink;
+	-webkit-transform-origin: right center;
+	-ms-transform-origin: right center;
+	transform-origin: right center;
+	-webkit-transform: rotate(6deg);
+	-ms-transform: rotate(6deg);
+	transform: rotate(6deg);
+}
+
+.mission_bar02:before {
+	content: '';
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 120%;
+	height: 3px;
+	margin: 925px -100px 0;
+	background: hotpink;
+	-webkit-transform-origin: right center;
+	-ms-transform-origin: right center;
+	transform-origin: right center;
+	-webkit-transform: rotate(6deg);
+	-ms-transform: rotate(6deg);
+	transform: rotate(6deg);
+}
+
+.content20 {
+	padding-top: 400px;
+}
+
+.content8 {
+	margin-bottom: 310px;
+}
+
+
+.content5 h1 {
+	font-size: 80px;
+	padding-left: 200px;
+	color: #444444;
+}
+
+.content5 p {
+	padding-top: 30px;
+}
+
+.content2{
+	margin-top: 100px;
+}
+
+.content2 P {
+	font-size: 40px;
+	color: #444444;
+	float: right;
+
+	padding-right: 130px;
+	z-index: 2;
+}
+
+.content3 img {
+	margin: 30px 0px 0px 170px;
+	box-shadow: 6px 6px 6px #C0C0C0;
+}
+
+.content4 {
+	display: inline-block;
+	/* インラインブロック要素にする */
+	margin: 0px 10px 30px 170px;
+	/* 余白指定 */
+	height: 80px;
+	color: #444444;
+	padding-top: 40px;
+}
+
+.content4 h1 {
+	font-size: 20px;
+	color: pink;
+}
+
+.content23 {
+	padding-bottom: 100px;
+}
+
+.content22 h1 {
+	margin-bottom: 40px;
+}
+
+.web a {
+	display: inline-block;
+	background-color: pink;
+	/*背景色*/
+	color: #FFF;
+	/*文字色*/
+	font-size: 1em;
+	/*文字サイズ*/
+	line-height: 1;
+	text-decoration: none;
+	letter-spacing: 0.05em;
+	/*字間*/
+	margin-left: 960px;
+	margin-top: 50px;
+	margin-bottom: 80px;
+	padding: 17px 17px;
+	/*ボタン内の余白*/
+	border-radius: 3px;
+	/*角の丸み*/
+	cursor: pointer;
+	box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.14), 0 1px 5px 0 rgba(0, 0, 0, 0.12), 0 3px 1px -2px rgba(0, 0, 0, 0.2);
+	/*影*/
+	-webkit-tap-highlight-color: transparent;
+	transition: .3s ease-out;
+	/*変化を緩やかに*/
+}
+
+.web a:hover {
+	box-shadow: 0 3px 3px 0 rgba(0, 0, 0, 0.14), 0 1px 7px 0 rgba(0, 0, 0, 0.12), 0 3px 1px -1px rgba(0, 0, 0, 0.2);
+	/*浮き上がるように*/
+}
+
+.content9 {
+	padding-top: 10px;
+}
+
+.content10 {
+	padding-top: 100px;
+}
+
+.content11 {
+	padding-top: 300px;
+}
+
+.content12 img {
+	margin: 30px 0px 0px 150px;
+	box-shadow: 6px 6px 6px #C0C0C0;
+	float: left;
+}
+
+.mission_bar03:before {
+	content: '';
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 120%;
+	height: 10px;
+	margin: 2000px -100px 0;
+	background: hotpink;
+	-webkit-transform-origin: right center;
+	-ms-transform-origin: right center;
+	transform-origin: right center;
+	-webkit-transform: rotate(6deg);
+	-ms-transform: rotate(6deg);
+	transform: rotate(6deg);
+}
+
+.mission_bar04:before {
+	content: '';
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 120%;
+	height: 3px;
+	margin: 2025px -100px 0;
+	background: hotpink;
+	-webkit-transform-origin: right center;
+	-ms-transform-origin: right center;
+	transform-origin: right center;
+	-webkit-transform: rotate(6deg);
+	-ms-transform: rotate(6deg);
+	transform: rotate(6deg);
+}
+
+.mission_bar05:before {
+	content: '';
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 120%;
+	height: 10px;
+	margin: 6000px -100px 0;
+	background: hotpink;
+	-webkit-transform-origin: right center;
+	-ms-transform-origin: right center;
+	transform-origin: right center;
+	-webkit-transform: rotate(6deg);
+	-ms-transform: rotate(6deg);
+	transform: rotate(6deg);
+}
+
+.mission_bar06:before {
+	content: '';
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 120%;
+	height: 3px;
+	margin: 6025px -100px 0;
+	background: hotpink;
+	-webkit-transform-origin: right center;
+	-ms-transform-origin: right center;
+	transform-origin: right center;
+	-webkit-transform: rotate(6deg);
+	-ms-transform: rotate(6deg);
+	transform: rotate(6deg);
+}
+
+footer {
+	/*footerの装飾*/
+	width: 100%;
+	background-color: pink;
+	color: #fff;
+	text-align: center;
+	margin-top: 360px;
+	padding: 40px 0px 40px 0px;
+}
